@@ -11,3 +11,12 @@ Console.log every step of the way
 let music =["Jazz", "Blues"]
 music.push("Rock-n-Roll")
 console.log(music)
+
+music[1]= "Classics"
+console.log(music)
+
+music.shift()
+console.log(music)
+
+music.unshift("Rap", "Reggae")
+console.log(music)
