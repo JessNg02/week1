@@ -71,7 +71,7 @@ For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the
 */
 
 
-for (var i = 0; 12 <= i <= 1901){
+/*for (i=12; i <= 1901; i++) {
     if (i%3 == 0){
     console.log( i + "Fizz")
     }
@@ -87,7 +87,7 @@ for (var i = 0; 12 <= i <= 1901){
         console.log (i + "FizzBuzz")
     
 }
-
+*/
 
 /*
 	Extend FizzBuzz and make it reusable for any range of numbers by using a function.
@@ -97,3 +97,4 @@ for (var i = 0; 12 <= i <= 1901){
 */
 
 // set condition = 100 for #3
+
