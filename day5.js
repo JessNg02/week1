@@ -70,12 +70,13 @@ For each multiple of 5, print "Buzz" instead of the number.
 For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
 */
 
-for (var i = 0; i < 100; i++){
+
+for (var i = 0; 12 <= i <= 1901){
     if (i%3 == 0){
-    console.log("Fizz")
+    console.log( i + "Fizz")
     }
     if (i%5 == 0){
-    console.log("Buzz")
+    console.log( i + "Buzz")
     }else if (i%3 == 0){
         continue;
     }
@@ -83,7 +84,7 @@ for (var i = 0; i < 100; i++){
     else if(i%5 == 0){
         continue;
     }
-        console.log ("FizzBuzz")
+        console.log (i + "FizzBuzz")
     
 }
 
@@ -95,4 +96,4 @@ for (var i = 0; i < 100; i++){
 	fizzBuzz(12, 1901) --> Also works and outputs correctly.
 */
 
-
+// set condition = 100 for #3
