@@ -95,3 +95,4 @@ for (var i = 0; i < 100; i++){
 	fizzBuzz(12, 1901) --> Also works and outputs correctly.
 */
 
+
