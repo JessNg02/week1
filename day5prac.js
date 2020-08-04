@@ -36,7 +36,8 @@ console.log(result(division(20,10), division(3,6)))
 //Given the following array, print out all the elements of the array in order.
 //Extend: Replace the value of each element in the array with its index number.
 
-let array = [7801, "Hey", 9, null, "watch Halt and Catch Fire on Netflix", "TRUST ME"];
+/*let array = [7801, "Hey", 9, null, "watch Halt and Catch Fire on Netflix", "TRUST ME"];
 for (let key in array) {
     console.log(key, "and", array[key]);
 }
+*/
